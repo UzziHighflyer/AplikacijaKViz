@@ -1,0 +1,41 @@
+*{
+	box-sizing: border-box;
+}
+
+body,h1,h2,h3,h4,h5,h6,p,a{
+	margin:0;
+	padding:0;
+	font-family: 'Blinker', sans-serif;
+}
+
+.razine{
+	text-decoration: none;
+	display: block;
+	padding:10px;	
+	width:150px;
+	color:white;
+}
+
+.razine:first-of-type{
+	background: #C4E538;
+}
+
+.razine:nth-of-type(2n){
+	background: #009432
+}
+
+.razine:nth-of-type(3n){
+	background: #833471;
+}
+
+.razine:last-of-type{
+	background: #1B1464;
+}
+
+.desno{
+	float:right;
+}
+
+#nextButton,#success,#error{
+	display: none;
+}
